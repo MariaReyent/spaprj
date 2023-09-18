@@ -1,7 +1,7 @@
 import {CategoryItem} from "./CategoryItem"
 
 function CategoryList ({catalog=[]}){
-     return (<div classname="list">
+     return (<div className="list">
          {catalog.map( el=>(
             <CategoryItem key={el.idCategory} {...el}/>
          ))}

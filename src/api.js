@@ -15,6 +15,5 @@ const getFilteredCategory = async (catName) =>{
    return await response.json();
 }
 
-console.log();
 
 export {getMealById, getAllCategories, getFilteredCategory}

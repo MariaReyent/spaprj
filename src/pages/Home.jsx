@@ -18,6 +18,8 @@ function Home(){
         ) }
     </>
 }
-console.log(useState);
+
+
+
 
 export {Home}

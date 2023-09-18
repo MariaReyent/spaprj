@@ -20,3 +20,20 @@ nav {
   min-height: calc(100vh - 70px - 64px);
   padding: 1.5rem 0;
 }
+
+.list{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(250, 1 fr));
+  gap: 1rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card-content{
+  flex-grow: 1;
+  
+}
