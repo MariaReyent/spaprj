@@ -22,14 +22,15 @@ nav {
 }
 
 .list{
-  display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(250, 1 fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
 }
 
 .card{
   display: flex;
   flex-direction: column;
+  
 
 }
 
