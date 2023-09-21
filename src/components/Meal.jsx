@@ -12,12 +12,13 @@ function Meal(props){
       <span className="card-title">{strMeal}</span>
     </div>
     <div className="card-action">
-        <Link to={`/category/${idMeal}`} 
+        <Link to={`/meal/${idMeal}`} 
         className='btn'>Look up recipe</Link>
     </div>
   </div>
-
+    
     );
+
 }
 
 export {Meal}
